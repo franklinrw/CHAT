@@ -3,7 +3,7 @@ title: Silicon Shakespeare
 description: A small and silly experiment using ChatGPT to generate a "book" on education and artificial intelligence, curated by me.
 avatar: https://raw.githubusercontent.com/franklinwillemen/Silicon-Shakespeare/master/images/Shakes4.png
 url: https://siliconshakespeare.com
-baseurl: "/Silicon-Shakespeare"
+baseurl: /Silicon-Shakespeare
 
 # Build settings
 theme: jekyll-theme-cayman
