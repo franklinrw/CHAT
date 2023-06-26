@@ -11,7 +11,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-API_KEY = os.getenv("OPENAI_API_KEY")
+API_KEY = os.environ["OPENAI_API_KEY"]
 
 class Message(BaseModel):
     role: str
