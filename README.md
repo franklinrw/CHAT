@@ -1,10 +1,5 @@
 ## Description
 
-This app is a Chatbot UI that uses the OpenAI ChatGPT API to provide responses to text inputs.
-It is launched using the Gradio library, which allows the user to enter text queries from a nice interface and receive responses from the chatbot.
-
-![image](./chat-screenshot.png)
-
 ## Install Dependencies
 
 Run:
