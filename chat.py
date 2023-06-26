@@ -69,7 +69,7 @@ Gradio Blocks low-level API that allows to create custom web applications (here 
 """
 with gr.Blocks() as demo:
     logger.info("Starting Demo...")
-    chatbot = gr.Chatbot(label="WebGPT")
+    chatbot = gr.Chatbot(label="CHAT")
     state = gr.State([])
     with gr.Row():
         txt = gr.Textbox(show_label=False, placeholder="Enter text and press enter").style(container=False)
