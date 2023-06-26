@@ -9,17 +9,14 @@ pip install -r requirements.txt
 
 ## API Key
 
-The app will need an OpenAI API Key to work.
-To specify it, create a .env file and write your OpenAI API key
-```bash
-OPENAI_API_KEY=XXXXXXXXX
-```
+CHAT will need an OpenAI/LLM API Key to work.
+Follow these steps: https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety 
 
 ## Start App
 
 Just run:
 ```bash
-gradio mywebgpt.py
+gradio chat.py
 ```
 
 Then, you can see your app at the url `http://127.0.0.1:8080/`.
